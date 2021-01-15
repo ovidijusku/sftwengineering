@@ -4,18 +4,26 @@ This project is based on Python 3. It consist of [1 class](https://github.com/ov
 
 ### Installation
 
-''' bash
-pip install git+xxxxxxxxxxx
-'''
+> git clone https://github.com/ovidijusku/sftwengineering.git
 
 ### Access
 
-''' bash
-from tesla import Tesla
-'''
+> from tesla import Tesla
 
 ### Creating object
 
-''' bash
-new_car = Tesla("3","silver")
-'''
+> new_car = Tesla("3","silver")
+
+At least two arguments are expected: model and color.
+
+### Methods
+
+> .color - return color of the car
+> .autopilot(obstacle: str) - if autopilot mode is on, returns string "Tesla model {model} avoids {obstacle}"
+> .seatscount - returns number of seats in the car
+> .unlock() - unlocks the car
+
+.
+.
+.
+
