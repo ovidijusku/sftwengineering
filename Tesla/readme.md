@@ -4,18 +4,18 @@ This project is based on Python 3. It consist of [1 class](https://github.com/ov
 
 ### Installation
 
-'''bash
+''' bash
 pip install git+xxxxxxxxxxx
 '''
 
 ### Access
 
-'''bash
+''' bash
 from tesla import Tesla
 '''
 
 ### Creating object
 
-'''bash
+''' bash
 new_car = Tesla("3","silver")
 '''
