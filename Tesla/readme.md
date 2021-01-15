@@ -19,11 +19,10 @@ At least two arguments are expected: model and color.
 ### Methods
 
 > .color - return color of the car
-> .autopilot(obstacle: str) - if autopilot mode is on, returns string "Tesla model {model} avoids {obstacle}"
-> .seatscount - returns number of seats in the car
-> .unlock() - unlocks the car
 
-.
-.
-.
+> .autopilot(obstacle: str) - if autopilot mode is on, returns string "Tesla model {model} avoids {obstacle}"
+
+> .seatscount - returns number of seats in the car
+
+> .unlock() - unlocks the car
 
